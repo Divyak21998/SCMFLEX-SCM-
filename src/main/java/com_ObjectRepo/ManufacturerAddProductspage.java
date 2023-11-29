@@ -22,7 +22,8 @@ public class ManufacturerAddProductspage extends WebDriverUtilies{
 	private WebElement productdes;
 	@FindBy(xpath=("//input[@type='submit']"))
 	private WebElement addproductbutton;
-
+   @FindBy(xpath=("//input[@value='Log out']"))
+   private WebElement logoutbutton;
 	public ManufacturerAddProductspage(WebDriver driver)
 	{
 		PageFactory.initElements(driver,this);
@@ -50,6 +51,9 @@ public class ManufacturerAddProductspage extends WebDriverUtilies{
 	}
 	public WebElement getAddproductbutton() {
 		return addproductbutton;
+	}
+	public WebElement getLogoutbutton() {
+		return logoutbutton;
 	}
 
 	public void Manufacturerabletoaddproduct(String pname,String pprice,String unitoption,String categoryoption,String description )

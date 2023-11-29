@@ -1,200 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="8" total="13" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[To_check_add_retailers_page_is_displayed----Testscript execution starts from here-----]]>
-    </line>
-    <line>
-      <![CDATA[To_check_add_retailers_page_is_displayed---test script executed successfully-----]]>
-    </line>
-    <line>
-      <![CDATA[Scearchorders_WithDifferent_selecting_Optionof_Dropdown_----Testscript execution starts from here-----]]>
-    </line>
-    <line>
-      <![CDATA[Scearchorders_WithDifferent_selecting_Optionof_Dropdown_---test script executed successfully-----]]>
-    </line>
-    <line>
-      <![CDATA[Manufacturer_should_be_able_to_add_products----Testscript execution starts from here-----]]>
-    </line>
-    <line>
-      <![CDATA[Manufacturer_should_be_able_to_add_products---test script executed successfully-----]]>
-    </line>
-    <line>
-      <![CDATA[Manufacturer_should_be_able_to_update_stock----Testscript execution starts from here-----]]>
-    </line>
-    <line>
-      <![CDATA[Manufacturer_should_be_able_to_update_stock---test script executed successfully-----]]>
-    </line>
-    <line>
-      <![CDATA[CreatingAndDeletingRetailer_----Testscript execution starts from here-----]]>
-    </line>
-    <line>
-      <![CDATA[CreatingAndDeletingRetailer_---test script executed successfully-----]]>
-    </line>
   </reporter-output>
-  <suite started-at="2023-11-29T09:47:38 IST" name="Suite" finished-at="2023-11-29T09:48:44 IST" duration-ms="66001">
+  <suite started-at="2023-11-29T13:35:34 IST" name="Default suite" finished-at="2023-11-29T13:36:04 IST" duration-ms="29777">
     <groups>
-      <group name="Systemtest">
-        <method signature="CreatingAndDeletingRetailer_Test.CreatingAndDeletingRetailer_()[pri:0, instance:SCMflex.CreatingAndDeletingRetailer_Test@742ff096]" name="CreatingAndDeletingRetailer_" class="SCMflex.CreatingAndDeletingRetailer_Test"/>
-        <method signature="Manufacturer_should_be_able_to_update_stock_and_Admin_can_see_Update_Stock.Manufacturer_should_be_able_to_update_stock()[pri:0, instance:SCMflex.Manufacturer_should_be_able_to_update_stock_and_Admin_can_see_Update_Stock@4be29ed9]" name="Manufacturer_should_be_able_to_update_stock" class="SCMflex.Manufacturer_should_be_able_to_update_stock_and_Admin_can_see_Update_Stock"/>
-        <method signature="Scearchorders_WithDifferent_selecting_Optionof_Dropdown_test.Scearchorders_WithDifferent_selecting_Optionof_Dropdown_()[pri:0, instance:SCMflex.Scearchorders_WithDifferent_selecting_Optionof_Dropdown_test@5149d738]" name="Scearchorders_WithDifferent_selecting_Optionof_Dropdown_" class="SCMflex.Scearchorders_WithDifferent_selecting_Optionof_Dropdown_test"/>
-      </group> <!-- Systemtest -->
-      <group name="IntegrationTest">
-        <method signature="Manufacturer_should_be_able_to_add_products_Test.Manufacturer_should_be_able_to_add_products()[pri:0, instance:SCMflex.Manufacturer_should_be_able_to_add_products_Test@6bbe85a8]" name="Manufacturer_should_be_able_to_add_products" class="SCMflex.Manufacturer_should_be_able_to_add_products_Test"/>
-      </group> <!-- IntegrationTest -->
-      <group name="Smoketest">
-        <method signature="To_check_add_retailers_page_is_displayedTest.To_check_add_retailers_page_is_displayed()[pri:0, instance:SCMflex.To_check_add_retailers_page_is_displayedTest@75d3a5e0]" name="To_check_add_retailers_page_is_displayed" class="SCMflex.To_check_add_retailers_page_is_displayedTest"/>
-      </group> <!-- Smoketest -->
     </groups>
-    <test started-at="2023-11-29T09:47:38 IST" name="Test" finished-at="2023-11-29T09:48:44 IST" duration-ms="66001">
-      <class name="SCMflex.Manufacturer_should_be_able_to_add_products_Test">
-        <test-method is-config="true" signature="config_BC()[pri:0, instance:SCMflex.Manufacturer_should_be_able_to_add_products_Test@6bbe85a8]" started-at="2023-11-29T09:48:05 IST" name="config_BC" finished-at="2023-11-29T09:48:07 IST" duration-ms="1871" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- config_BC -->
-        <test-method is-config="true" signature="config_BM()[pri:0, instance:SCMflex.Manufacturer_should_be_able_to_add_products_Test@6bbe85a8]" started-at="2023-11-29T09:48:07 IST" name="config_BM" finished-at="2023-11-29T09:48:10 IST" duration-ms="3602" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- config_BM -->
-        <test-method signature="Manufacturer_should_be_able_to_add_products()[pri:0, instance:SCMflex.Manufacturer_should_be_able_to_add_products_Test@6bbe85a8]" started-at="2023-11-29T09:48:10 IST" name="Manufacturer_should_be_able_to_add_products" finished-at="2023-11-29T09:48:15 IST" duration-ms="4937" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Manufacturer_should_be_able_to_add_products----Testscript execution starts from here-----]]>
-            </line>
-            <line>
-              <![CDATA[Manufacturer_should_be_able_to_add_products---test script executed successfully-----]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Manufacturer_should_be_able_to_add_products -->
-        <test-method is-config="true" signature="config_AM()[pri:0, instance:SCMflex.Manufacturer_should_be_able_to_add_products_Test@6bbe85a8]" started-at="2023-11-29T09:48:15 IST" name="config_AM" finished-at="2023-11-29T09:48:16 IST" duration-ms="266" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- config_AM -->
-        <test-method is-config="true" signature="config_AC()[pri:0, instance:SCMflex.Manufacturer_should_be_able_to_add_products_Test@6bbe85a8]" started-at="2023-11-29T09:48:16 IST" name="config_AC" finished-at="2023-11-29T09:48:16 IST" duration-ms="345" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- config_AC -->
-      </class> <!-- SCMflex.Manufacturer_should_be_able_to_add_products_Test -->
-      <class name="SCMflex.To_check_add_retailers_page_is_displayedTest">
-        <test-method is-config="true" signature="config_Bs()[pri:0, instance:SCMflex.To_check_add_retailers_page_is_displayedTest@75d3a5e0]" started-at="2023-11-29T09:47:38 IST" name="config_Bs" finished-at="2023-11-29T09:47:38 IST" duration-ms="342" status="PASS">
+    <test started-at="2023-11-29T13:35:34 IST" name="Default test" finished-at="2023-11-29T13:36:04 IST" duration-ms="29777">
+      <class name="SCMflex.Manufracturer_shouldbeableto_EdittheProduct_test">
+        <test-method is-config="true" signature="config_Bs()[pri:0, instance:SCMflex.Manufracturer_shouldbeableto_EdittheProduct_test@543295b0]" started-at="2023-11-29T13:35:34 IST" name="config_Bs" finished-at="2023-11-29T13:35:34 IST" duration-ms="617" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- config_Bs -->
-        <test-method is-config="true" signature="config_BC()[pri:0, instance:SCMflex.To_check_add_retailers_page_is_displayedTest@75d3a5e0]" started-at="2023-11-29T09:47:38 IST" name="config_BC" finished-at="2023-11-29T09:47:42 IST" duration-ms="3630" status="PASS">
+        <test-method is-config="true" signature="config_BC()[pri:0, instance:SCMflex.Manufracturer_shouldbeableto_EdittheProduct_test@543295b0]" started-at="2023-11-29T13:35:34 IST" name="config_BC" finished-at="2023-11-29T13:35:44 IST" duration-ms="9969" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- config_BC -->
-        <test-method is-config="true" signature="config_BM()[pri:0, instance:SCMflex.To_check_add_retailers_page_is_displayedTest@75d3a5e0]" started-at="2023-11-29T09:47:42 IST" name="config_BM" finished-at="2023-11-29T09:47:46 IST" duration-ms="3730" status="PASS">
+        <test-method is-config="true" signature="config_BM()[pri:0, instance:SCMflex.Manufracturer_shouldbeableto_EdittheProduct_test@543295b0]" started-at="2023-11-29T13:35:44 IST" name="config_BM" finished-at="2023-11-29T13:35:48 IST" duration-ms="3735" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- config_BM -->
-        <test-method signature="To_check_add_retailers_page_is_displayed()[pri:0, instance:SCMflex.To_check_add_retailers_page_is_displayedTest@75d3a5e0]" started-at="2023-11-29T09:47:46 IST" name="To_check_add_retailers_page_is_displayed" finished-at="2023-11-29T09:47:46 IST" duration-ms="197" status="PASS">
+        <test-method signature="Manufracturer_shouldbeableto_EdittheProduct()[pri:0, instance:SCMflex.Manufracturer_shouldbeableto_EdittheProduct_test@543295b0]" started-at="2023-11-29T13:35:48 IST" name="Manufracturer_shouldbeableto_EdittheProduct" finished-at="2023-11-29T13:36:04 IST" duration-ms="15498" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[To_check_add_retailers_page_is_displayed----Testscript execution starts from here-----]]>
-            </line>
-            <line>
-              <![CDATA[To_check_add_retailers_page_is_displayed---test script executed successfully-----]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- To_check_add_retailers_page_is_displayed -->
-        <test-method is-config="true" signature="config_AM()[pri:0, instance:SCMflex.To_check_add_retailers_page_is_displayedTest@75d3a5e0]" started-at="2023-11-29T09:47:46 IST" name="config_AM" finished-at="2023-11-29T09:47:46 IST" duration-ms="132" status="PASS">
+        </test-method> <!-- Manufracturer_shouldbeableto_EdittheProduct -->
+        <test-method is-config="true" signature="config_AM()[pri:0, instance:SCMflex.Manufracturer_shouldbeableto_EdittheProduct_test@543295b0]" started-at="2023-11-29T13:36:04 IST" name="config_AM" finished-at="2023-11-29T13:36:04 IST" duration-ms="146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- config_AM -->
-        <test-method is-config="true" signature="config_AC()[pri:0, instance:SCMflex.To_check_add_retailers_page_is_displayedTest@75d3a5e0]" started-at="2023-11-29T09:47:46 IST" name="config_AC" finished-at="2023-11-29T09:47:47 IST" duration-ms="315" status="PASS">
+        <test-method is-config="true" signature="config_AC()[pri:0, instance:SCMflex.Manufracturer_shouldbeableto_EdittheProduct_test@543295b0]" started-at="2023-11-29T13:36:04 IST" name="config_AC" finished-at="2023-11-29T13:36:04 IST" duration-ms="310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- config_AC -->
-        <test-method is-config="true" signature="config_AS()[pri:0, instance:SCMflex.To_check_add_retailers_page_is_displayedTest@75d3a5e0]" started-at="2023-11-29T09:48:45 IST" name="config_AS" finished-at="2023-11-29T09:48:45 IST" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="config_AS()[pri:0, instance:SCMflex.Manufracturer_shouldbeableto_EdittheProduct_test@543295b0]" started-at="2023-11-29T13:36:04 IST" name="config_AS" finished-at="2023-11-29T13:36:04 IST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- config_AS -->
-      </class> <!-- SCMflex.To_check_add_retailers_page_is_displayedTest -->
-      <class name="SCMflex.Scearchorders_WithDifferent_selecting_Optionof_Dropdown_test">
-        <test-method is-config="true" signature="config_BC()[pri:0, instance:SCMflex.Scearchorders_WithDifferent_selecting_Optionof_Dropdown_test@5149d738]" started-at="2023-11-29T09:47:47 IST" name="config_BC" finished-at="2023-11-29T09:47:48 IST" duration-ms="1885" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- config_BC -->
-        <test-method is-config="true" signature="config_BM()[pri:0, instance:SCMflex.Scearchorders_WithDifferent_selecting_Optionof_Dropdown_test@5149d738]" started-at="2023-11-29T09:47:48 IST" name="config_BM" finished-at="2023-11-29T09:47:52 IST" duration-ms="3673" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- config_BM -->
-        <test-method signature="Scearchorders_WithDifferent_selecting_Optionof_Dropdown_()[pri:0, instance:SCMflex.Scearchorders_WithDifferent_selecting_Optionof_Dropdown_test@5149d738]" started-at="2023-11-29T09:47:52 IST" name="Scearchorders_WithDifferent_selecting_Optionof_Dropdown_" finished-at="2023-11-29T09:48:04 IST" duration-ms="12166" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Scearchorders_WithDifferent_selecting_Optionof_Dropdown_----Testscript execution starts from here-----]]>
-            </line>
-            <line>
-              <![CDATA[Scearchorders_WithDifferent_selecting_Optionof_Dropdown_---test script executed successfully-----]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Scearchorders_WithDifferent_selecting_Optionof_Dropdown_ -->
-        <test-method is-config="true" signature="config_AM()[pri:0, instance:SCMflex.Scearchorders_WithDifferent_selecting_Optionof_Dropdown_test@5149d738]" started-at="2023-11-29T09:48:04 IST" name="config_AM" finished-at="2023-11-29T09:48:04 IST" duration-ms="176" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- config_AM -->
-        <test-method is-config="true" signature="config_AC()[pri:0, instance:SCMflex.Scearchorders_WithDifferent_selecting_Optionof_Dropdown_test@5149d738]" started-at="2023-11-29T09:48:04 IST" name="config_AC" finished-at="2023-11-29T09:48:05 IST" duration-ms="386" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- config_AC -->
-      </class> <!-- SCMflex.Scearchorders_WithDifferent_selecting_Optionof_Dropdown_test -->
-      <class name="SCMflex.Manufacturer_should_be_able_to_update_stock_and_Admin_can_see_Update_Stock">
-        <test-method is-config="true" signature="config_BC()[pri:0, instance:SCMflex.Manufacturer_should_be_able_to_update_stock_and_Admin_can_see_Update_Stock@4be29ed9]" started-at="2023-11-29T09:48:16 IST" name="config_BC" finished-at="2023-11-29T09:48:18 IST" duration-ms="2098" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- config_BC -->
-        <test-method is-config="true" signature="config_BM()[pri:0, instance:SCMflex.Manufacturer_should_be_able_to_update_stock_and_Admin_can_see_Update_Stock@4be29ed9]" started-at="2023-11-29T09:48:18 IST" name="config_BM" finished-at="2023-11-29T09:48:22 IST" duration-ms="3545" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- config_BM -->
-        <test-method signature="Manufacturer_should_be_able_to_update_stock()[pri:0, instance:SCMflex.Manufacturer_should_be_able_to_update_stock_and_Admin_can_see_Update_Stock@4be29ed9]" started-at="2023-11-29T09:48:22 IST" name="Manufacturer_should_be_able_to_update_stock" finished-at="2023-11-29T09:48:35 IST" duration-ms="13281" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Manufacturer_should_be_able_to_update_stock----Testscript execution starts from here-----]]>
-            </line>
-            <line>
-              <![CDATA[Manufacturer_should_be_able_to_update_stock---test script executed successfully-----]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Manufacturer_should_be_able_to_update_stock -->
-        <test-method is-config="true" signature="config_AM()[pri:0, instance:SCMflex.Manufacturer_should_be_able_to_update_stock_and_Admin_can_see_Update_Stock@4be29ed9]" started-at="2023-11-29T09:48:35 IST" name="config_AM" finished-at="2023-11-29T09:48:35 IST" duration-ms="111" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- config_AM -->
-        <test-method is-config="true" signature="config_AC()[pri:0, instance:SCMflex.Manufacturer_should_be_able_to_update_stock_and_Admin_can_see_Update_Stock@4be29ed9]" started-at="2023-11-29T09:48:35 IST" name="config_AC" finished-at="2023-11-29T09:48:35 IST" duration-ms="302" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- config_AC -->
-      </class> <!-- SCMflex.Manufacturer_should_be_able_to_update_stock_and_Admin_can_see_Update_Stock -->
-      <class name="SCMflex.CreatingAndDeletingRetailer_Test">
-        <test-method is-config="true" signature="config_BC()[pri:0, instance:SCMflex.CreatingAndDeletingRetailer_Test@742ff096]" started-at="2023-11-29T09:48:35 IST" name="config_BC" finished-at="2023-11-29T09:48:37 IST" duration-ms="1897" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- config_BC -->
-        <test-method is-config="true" signature="config_BM()[pri:0, instance:SCMflex.CreatingAndDeletingRetailer_Test@742ff096]" started-at="2023-11-29T09:48:37 IST" name="config_BM" finished-at="2023-11-29T09:48:41 IST" duration-ms="3575" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- config_BM -->
-        <test-method signature="CreatingAndDeletingRetailer_()[pri:0, instance:SCMflex.CreatingAndDeletingRetailer_Test@742ff096]" started-at="2023-11-29T09:48:41 IST" name="CreatingAndDeletingRetailer_" finished-at="2023-11-29T09:48:43 IST" duration-ms="2398" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[CreatingAndDeletingRetailer_----Testscript execution starts from here-----]]>
-            </line>
-            <line>
-              <![CDATA[CreatingAndDeletingRetailer_---test script executed successfully-----]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- CreatingAndDeletingRetailer_ -->
-        <test-method is-config="true" signature="config_AM()[pri:0, instance:SCMflex.CreatingAndDeletingRetailer_Test@742ff096]" started-at="2023-11-29T09:48:43 IST" name="config_AM" finished-at="2023-11-29T09:48:44 IST" duration-ms="565" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- config_AM -->
-        <test-method is-config="true" signature="config_AC()[pri:0, instance:SCMflex.CreatingAndDeletingRetailer_Test@742ff096]" started-at="2023-11-29T09:48:44 IST" name="config_AC" finished-at="2023-11-29T09:48:44 IST" duration-ms="381" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- config_AC -->
-      </class> <!-- SCMflex.CreatingAndDeletingRetailer_Test -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- SCMflex.Manufracturer_shouldbeableto_EdittheProduct_test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

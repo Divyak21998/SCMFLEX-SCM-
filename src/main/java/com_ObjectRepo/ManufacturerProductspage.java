@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class ManufacturerProductspage {
-	@FindBy(xpath="//input[@value='338']/../..//img[@alt='edit']")
+	@FindBy(xpath="//input[@value='466']/../following-sibling::td/a/img[@alt='edit']")
 	private WebElement edit;
 	@FindBy(xpath=("//input[@id='product:price']"))
 	private WebElement productpricetxt;

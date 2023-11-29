@@ -1,5 +1,7 @@
 package com_ObjectRepo;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -29,5 +31,12 @@ public void UpdateProductNameAlongWithprice(WebDriver driver)
 
 		String prductQuantity = productquantity.getText();
 		System.out.println("Product name : " + productname + " Product Quantity : " + prductQuantity);
+}
+public void EditProductsdetails(WebDriver driver) {
+	List<WebElement> EP = driver.findElements(By.xpath("//input[@value='466']/../following-sibling::td"));
+   for (WebElement eachEp : EP) {
+	   System.out.println(eachEp.getText());
+	
+}
 }
 }
