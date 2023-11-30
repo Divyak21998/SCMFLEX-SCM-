@@ -25,8 +25,7 @@ public class BaseClass {
 	public DatabaseUtilities dlib=new DatabaseUtilities();
 	public WebDriver driver;
 	public static WebDriver sdriver;
-	//	Scanner sc=new Scanner(System.in);
-	//	String dd=sc.next();
+
 
 	@BeforeSuite(alwaysRun = true)
 	public void config_Bs() throws Throwable
@@ -68,36 +67,10 @@ public class BaseClass {
 		String Adusername=plib.readDataFromPropertyFile("adminusername");
 		String Adpassword=plib.readDataFromPropertyFile("adminpassword");
 		String Adlogintype=plib.readDataFromPropertyFile("adminlogintype");
-		String Retusername=plib.readDataFromPropertyFile("Retailerusername");
-		String Retpassword=plib.readDataFromPropertyFile("Retailerurerpassword");
-		String Retlogintype=plib.readDataFromPropertyFile("Retailerlogintype");
-		String Manusername=plib.readDataFromPropertyFile("manufacturerusername");
-		String Manpassword=plib.readDataFromPropertyFile("manufacturerpassword");
-		String Manlogintype=plib.readDataFromPropertyFile("Manufacturerlogintype");
-
-
-
-		//		 if(Adlogintype.equalsIgnoreCase(dd))
-		//		 {
 
 		Thread.sleep(3000);
-
-		//if(Adlogintype.equalsIgnoreCase(dd))
-		//{
 		login.loginTOApplication(Adusername,Adpassword,Adlogintype);
-		//		}
-		//		else if(Retlogintype.equalsIgnoreCase(dd))
-		//		{
-		//			login.loginTOApplication(Retusername, Retpassword, Retlogintype);
-		//		}
-		//		else if(Manlogintype.equalsIgnoreCase(dd))
-		//		{
-		//			login.loginTOApplication(Manusername, Manpassword, Manlogintype);
-		//		}
-		//		else
-		//		{
-		//			System.out.println("---invalid login--");
-		//		}
+
 	}
 	@AfterMethod(alwaysRun = true)
 	public void config_AM()
