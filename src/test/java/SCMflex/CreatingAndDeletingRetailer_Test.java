@@ -37,7 +37,7 @@ import genericUtilities.ExcelUtilities;
 import genericUtilities.PropertyFileUtilities;
 import genericUtilities.WebDriverUtilies;
 
-@Listeners(genericUtilities.Listenerutil.class)
+
 public class CreatingAndDeletingRetailer_Test extends BaseClass{
 	@Test(groups = "Systemtest")
 	public  void CreatingAndDeletingRetailer_() throws InterruptedException, Throwable {
