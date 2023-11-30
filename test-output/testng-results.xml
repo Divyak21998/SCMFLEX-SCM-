@@ -2,40 +2,43 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-29T13:35:34 IST" name="Default suite" finished-at="2023-11-29T13:36:04 IST" duration-ms="29777">
+  <suite started-at="2023-11-30T13:25:26 IST" name="Default suite" finished-at="2023-11-30T13:25:56 IST" duration-ms="29787">
     <groups>
+      <group name="Systemtest">
+        <method signature="Scearchorders_WithDifferent_selecting_Optionof_Dropdown_test.Scearchorders_WithDifferent_selecting_Optionof_Dropdown_()[pri:0, instance:SCMflex.Scearchorders_WithDifferent_selecting_Optionof_Dropdown_test@543295b0]" name="Scearchorders_WithDifferent_selecting_Optionof_Dropdown_" class="SCMflex.Scearchorders_WithDifferent_selecting_Optionof_Dropdown_test"/>
+      </group> <!-- Systemtest -->
     </groups>
-    <test started-at="2023-11-29T13:35:34 IST" name="Default test" finished-at="2023-11-29T13:36:04 IST" duration-ms="29777">
-      <class name="SCMflex.Manufracturer_shouldbeableto_EdittheProduct_test">
-        <test-method is-config="true" signature="config_Bs()[pri:0, instance:SCMflex.Manufracturer_shouldbeableto_EdittheProduct_test@543295b0]" started-at="2023-11-29T13:35:34 IST" name="config_Bs" finished-at="2023-11-29T13:35:34 IST" duration-ms="617" status="PASS">
+    <test started-at="2023-11-30T13:25:26 IST" name="Default test" finished-at="2023-11-30T13:25:56 IST" duration-ms="29787">
+      <class name="SCMflex.Scearchorders_WithDifferent_selecting_Optionof_Dropdown_test">
+        <test-method is-config="true" signature="config_Bs()[pri:0, instance:SCMflex.Scearchorders_WithDifferent_selecting_Optionof_Dropdown_test@543295b0]" started-at="2023-11-30T13:25:25 IST" name="config_Bs" finished-at="2023-11-30T13:25:26 IST" duration-ms="465" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- config_Bs -->
-        <test-method is-config="true" signature="config_BC()[pri:0, instance:SCMflex.Manufracturer_shouldbeableto_EdittheProduct_test@543295b0]" started-at="2023-11-29T13:35:34 IST" name="config_BC" finished-at="2023-11-29T13:35:44 IST" duration-ms="9969" status="PASS">
+        <test-method is-config="true" signature="config_BC()[pri:0, instance:SCMflex.Scearchorders_WithDifferent_selecting_Optionof_Dropdown_test@543295b0]" started-at="2023-11-30T13:25:26 IST" name="config_BC" finished-at="2023-11-30T13:25:33 IST" duration-ms="7120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- config_BC -->
-        <test-method is-config="true" signature="config_BM()[pri:0, instance:SCMflex.Manufracturer_shouldbeableto_EdittheProduct_test@543295b0]" started-at="2023-11-29T13:35:44 IST" name="config_BM" finished-at="2023-11-29T13:35:48 IST" duration-ms="3735" status="PASS">
+        <test-method is-config="true" signature="config_BM()[pri:0, instance:SCMflex.Scearchorders_WithDifferent_selecting_Optionof_Dropdown_test@543295b0]" started-at="2023-11-30T13:25:33 IST" name="config_BM" finished-at="2023-11-30T13:25:37 IST" duration-ms="3718" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- config_BM -->
-        <test-method signature="Manufracturer_shouldbeableto_EdittheProduct()[pri:0, instance:SCMflex.Manufracturer_shouldbeableto_EdittheProduct_test@543295b0]" started-at="2023-11-29T13:35:48 IST" name="Manufracturer_shouldbeableto_EdittheProduct" finished-at="2023-11-29T13:36:04 IST" duration-ms="15498" status="PASS">
+        <test-method signature="Scearchorders_WithDifferent_selecting_Optionof_Dropdown_()[pri:0, instance:SCMflex.Scearchorders_WithDifferent_selecting_Optionof_Dropdown_test@543295b0]" started-at="2023-11-30T13:25:37 IST" name="Scearchorders_WithDifferent_selecting_Optionof_Dropdown_" finished-at="2023-11-30T13:25:55 IST" duration-ms="18437" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Manufracturer_shouldbeableto_EdittheProduct -->
-        <test-method is-config="true" signature="config_AM()[pri:0, instance:SCMflex.Manufracturer_shouldbeableto_EdittheProduct_test@543295b0]" started-at="2023-11-29T13:36:04 IST" name="config_AM" finished-at="2023-11-29T13:36:04 IST" duration-ms="146" status="PASS">
+        </test-method> <!-- Scearchorders_WithDifferent_selecting_Optionof_Dropdown_ -->
+        <test-method is-config="true" signature="config_AM()[pri:0, instance:SCMflex.Scearchorders_WithDifferent_selecting_Optionof_Dropdown_test@543295b0]" started-at="2023-11-30T13:25:55 IST" name="config_AM" finished-at="2023-11-30T13:25:55 IST" duration-ms="125" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- config_AM -->
-        <test-method is-config="true" signature="config_AC()[pri:0, instance:SCMflex.Manufracturer_shouldbeableto_EdittheProduct_test@543295b0]" started-at="2023-11-29T13:36:04 IST" name="config_AC" finished-at="2023-11-29T13:36:04 IST" duration-ms="310" status="PASS">
+        <test-method is-config="true" signature="config_AC()[pri:0, instance:SCMflex.Scearchorders_WithDifferent_selecting_Optionof_Dropdown_test@543295b0]" started-at="2023-11-30T13:25:55 IST" name="config_AC" finished-at="2023-11-30T13:25:56 IST" duration-ms="318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- config_AC -->
-        <test-method is-config="true" signature="config_AS()[pri:0, instance:SCMflex.Manufracturer_shouldbeableto_EdittheProduct_test@543295b0]" started-at="2023-11-29T13:36:04 IST" name="config_AS" finished-at="2023-11-29T13:36:04 IST" duration-ms="16" status="PASS">
+        <test-method is-config="true" signature="config_AS()[pri:0, instance:SCMflex.Scearchorders_WithDifferent_selecting_Optionof_Dropdown_test@543295b0]" started-at="2023-11-30T13:25:56 IST" name="config_AS" finished-at="2023-11-30T13:25:56 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- config_AS -->
-      </class> <!-- SCMflex.Manufracturer_shouldbeableto_EdittheProduct_test -->
+      </class> <!-- SCMflex.Scearchorders_WithDifferent_selecting_Optionof_Dropdown_test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

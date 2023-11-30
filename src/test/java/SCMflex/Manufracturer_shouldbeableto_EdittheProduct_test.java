@@ -13,7 +13,7 @@ import com_ObjectRepo.ManufacturerProductspage;
 import genericUtilities.BaseClass;
 
 public class Manufracturer_shouldbeableto_EdittheProduct_test extends BaseClass{
-	@Test
+	@Test(groups = "Systemtest")
 	public void Manufracturer_shouldbeableto_EdittheProduct() throws Throwable {
 	Adminhomepage Ahome=new Adminhomepage(driver);
 	Ahome.getLogout().click();

@@ -33,7 +33,7 @@ import genericUtilities.WebDriverUtilies;
 
 public class Manufacturer_should_be_able_to_add_products_Test extends BaseClass 
 {
-	@Test(groups = "IntegrationTest")
+	@Test(groups = "Systemtest")
 	public  void Manufacturer_should_be_able_to_add_products()throws Throwable {
 		PropertyFileUtilities pfiles=new PropertyFileUtilities();
 		//		WebDriverUtilies wlib=new WebDriverUtilies();

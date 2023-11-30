@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Suite">
+	
+	<groups>
+		<run>
+			<include name="Systemtest"></include>
+		</run>
+	</groups>
+	
+	<listeners>
+		<listener class-name="genericUtilities.Listenerutil"></listener>
+	</listeners>
+  <test thread-count="1" name="Test">
+    <classes>
+      <class name="SCMflex.To_check_add_retailers_page_is_displayedTest"/>
+      <class name="SCMflex.Scearchorders_WithDifferent_selecting_Optionof_Dropdown_test"/>
+      <class name="SCMflex.Manufacturer_should_be_able_to_add_products_Test"/>
+      <class name="SCMflex.Manufracturer_shouldbeableto_EdittheProduct_test"/>
+      <class name="SCMflex.Manufacturer_should_be_able_to_update_stock_and_Admin_can_see_Update_Stock"/>
+      <class name="SCMflex.CreatingAndDeletingRetailer_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
